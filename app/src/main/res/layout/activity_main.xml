@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Device Information"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/get_inf_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="@style/get_inf_btn"
+        android:text="Get Information"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="IP IPv4:"/>
+
+    <TextView
+        android:id="@+id/ip_ipv4_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="IP IPv4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="IP IPv6:"/>
+
+    <TextView
+        android:id="@+id/ip_ipv6_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="IP IPv6"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        style="@style/separator_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Manufacturer:"/>
+
+    <TextView
+        android:id="@+id/manufacturer_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Manufacturer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Brand:"/>
+
+    <TextView
+        android:id="@+id/brand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Brand"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Product:"/>
+
+    <TextView
+        android:id="@+id/product_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Product"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Model:"/>
+
+    <TextView
+        android:id="@+id/model_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Model"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        style="@style/separator_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Country Code:"/>
+
+    <TextView
+        android:id="@+id/country_code_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Country Code"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="Country Name:"/>
+
+    <TextView
+        android:id="@+id/country_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="Country Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/information_title"
+        android:text="City:"/>
+
+    <TextView
+        android:id="@+id/city_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/information_output"
+        android:hint="City"/>
+
+</LinearLayout>
